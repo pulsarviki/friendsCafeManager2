@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- DC Nivo Slider CSS -->
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+<!-- DC Javascript Library -->
+<script type="text/javascript" src="jquery.min.js"></script> <!-- jQuery Library (do not call twice on same page) -->
+
+<!-- DC Nivo Slider JS -->
+<script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+
+<!-- DC Nivo Slider Settings -->
+<script type="text/javascript">
+
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'random', // Effects available: 'random,fold,fade,boxRandom,sliceDown,sliceDownLeft,sliceUp,sliceUpLeft,sliceUpDown,sliceUpDownLeft,slideInRight,slideInLeft,boxRain,boxRainReverse,boxRainGrow,boxRainGrowReverse'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 2400, // How long each slide will show before next slide (2400 = 2 seconds)
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        directionNavHide: true, // Only show on hover
+        controlNav: false, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+            controlNavThumbsFromRel:true, // Generates the thumbnail url from the "rel" attribute in your image tags
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        prevText: '<', // Prev directionNav text
+        nextText: '>', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
+
+</script>
+
+<!-- DC Nivo Slider Start -->
+<title>Staff Details</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+         
+             <div style="width:1000px;   "> <!-- define slider container width (strict enforce) -->
+  <div id="slider-wrapper">
+    <div id="slider" class="nivoSlider">
+        <img src="image1.jpg" width="1500" height="356" title="#htmlcaption1" />
+        <img src="image2.jpg" width="1500" height="356" title="#htmlcaption2" />
+        <img src="image4.jpg" width="1500" height="356" title="#htmlcaption2" />
+    </div> 
+  </div> 
+</div></body>
+</html>

@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 80px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+#coolMenu {
+    font-family: Arial;
+    font-size: 20px;
+    background: #000;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #f09d28;
+    color: #000;
+}
+ 
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+body
+{
+background-image:url('coffee_bean2.jpeg');
+background-repeat:repeat-x;
+}
+</style>
+<script>	
+</script>
+</head>
+<body onload="change()">
+
+<ul id="coolMenu">
+<li><pre>              <pre></li>
+<li><img src="imagesa.jpg" height="130" width="130"></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Gallery</a></li>
+    <li>
+        <a href="#">Menu</a>
+        <ul>
+            <li><a href="#">Starters</a></li>
+            <li><a href="#">Beverages</a></li>
+            <li><a href="#">Deserts</a></li>
+        </ul>
+    </li>
+	<li><a href="3.htm">Booking</a></li>
+    <li><a href="#">Feedback</a></li>
+	<li><a href="2.htm">Location</a></li>
+    <li><a href="#">Contact us</a></li>
+	<li><pre>              </pre></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <form name="form1" method="get" action="add1.php">
+     <p>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<input type="text" name="text1"></p>
+     <p>Password&nbsp;&nbsp;<input type="password" name="text2"></p>
+     <input type="submit" name="button1" value="Submit">
+</form>
+
+</body>
+</html>
+
+

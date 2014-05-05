@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+
+<style>
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+z-index: 999;
+}
+#coolMenu ul li a {
+    width: 80px;
+}
+#coolMenu li:hover ul {
+    display: block;
+}
+#coolMenu {
+    font-family: Arial;
+    font-size: 20px;
+    background: #000;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #f09d28;
+    color: #000;
+}
+
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+b0dy
+{
+background-image:url('bg-page.jpg');
+background-repeat:repeat-x;
+}
+
+</style>
+<script>
+imageArray=new Array;
+
+imageArray[0]=new Image;
+imageArray[0].src="image7.jpg";
+
+imageArray[1]=new Image;
+imageArray[1].src="image2.jpg";
+
+imageArray[2]=new Image;
+imageArray[2].src="image3.jpg";
+
+imageArray[3]=new Image;
+imageArray[3].src="image4.jpg";
+
+imageArray[4]=new Image;
+imageArray[4].src="image5.jpg";
+
+imageArray[5]=new Image;
+imageArray[5].src="image6.jpg";
+
+imageArray[6]=new Image;
+imageArray[6].src="image1.jpg";
+
+
+function change()
+{
+    setTimeout("document.images['b1'].src=imageArray[0].src",1000);
+
+	setTimeout("document.images['b1'].src=imageArray[1].src",2500);
+
+	setTimeout("document.images['b1'].src=imageArray[2].src",4000);
+
+	setTimeout("document.images['b1'].src=imageArray[3].src",5500);
+
+	setTimeout("document.images['b1'].src=imageArray[4].src",7000);
+
+	setTimeout("document.images['b1'].src=imageArray[5].src",8500);
+
+	setTimeout("document.images['b1'].src=imageArray[6].src",10000);
+
+	setTimeout("document.images['b1'].src=imageArray[7].src",11500);
+
+
+	}
+
+</script>
+</head>
+<body onload="change()">
+
+<div class="main_wrap">
+  <div class="main">
+    <div class="main_wrap">
+      <div class="top_area">
+        <div class="top_area_main">
+          <div class="logo_area">
+            <div class="main_wrap">
+             <div class="logo_pasition"><a href="index.html"><img src="ig.jpg" alt="" height="160" width="104" /></a></div>
+            </div>
+          </div>
+          <div class="nav_area">
+            <div class="main_wrap">
+              <div class="nav_pasition">
+                <div class="nav_wrap">
+                  <ul>
+                    <li><a href="about us.html" class="home">Home</a></li>
+                    <li><a href="Appointment.html" class="home">Gallery</a></li>
+                    <li><a href="Cunsoltuncy.html" class="home">Menu</a></li>
+                    <li><a href="Sign Up.html" class="home">Booking</a></li>
+                    <li><a href="Sign Up.html" class="home">Feedback</a></li>
+                    <li><a href="Sign Up.html" class="home">Contact us</a></li>
+                    <li><a href="Sign Up.html" class="home">Sign up</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="position: absolute;left:310px;top:100px">
+<img src="image1.jpg" height="356" width="604" id="b1" name="b1"></div>
+<div style="position: absolute;left:1000px;top:150px">
+
+                                <div class="newsticker-jcarousellite"><table style="border-style: groove;border-width: 5px;width: 250px">
+                                    <tr>
+                                        <th>Events</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                            <div class="thumbnail">
+				Restaurants:
+                            </div>
+                            <div class="info">
+			Restaurants site is launched.
+		        Keep visiting our website.
+                            </div>
+                            <li>
+                                <div class="thumbnail">
+				Entertainment:
+                                </div>
+                                <div class="info">
+			Entertainment site will be launched at the end of April.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumbnail">
+				Wines:
+                                </div>
+                                <div class="info">
+				Wines site will be launched in May.
+                                </div>
+                            </li>
+                        </ul>
+                                        </td>
+                                    </tr>
+                                </table>
+</div></div></body>
+</html>
+
+

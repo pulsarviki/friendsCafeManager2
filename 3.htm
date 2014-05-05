@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-DE">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index,follow" />
+    <title>Demo | jQuery.popeye 2.1 | an inline lightbox alternative with slideshow</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+    <link rel="shortcut icon" href="gfx/site/favicon.ico" type="image/x-icon" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/site/site.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/popeye/jquery.popeye.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/popeye/jquery.popeye.style.css" media="screen" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/popeye/jquery.popeye-2.1.js"></script>
+
+</head>
+<body style=" background-image: url(wood.jpg);background-attachment: scroll;background-size: cover">
+
+     <div class="main_wrap">
+  <div class="main">
+    <div class="main_wrap">
+      <div class="top_area">
+        <div class="top_area_main">
+          <div class="logo_area">
+            <div class="main_wrap">
+
+            </div>
+          </div>
+          <div class="nav_area">
+            <div class="main_wrap">
+              <div class="nav_pasition">
+                  <div class="nav_wrap" style="border: 5px solid #000;position: absolute; left: 275px;top: 30px">
+
+                  <ul>
+                     <!-- <li><a href="index.html"><div style="position: absolute;left:250px;top:20px"><img src="imagesa.jpg" alt="" height="100" width="120" /></a></div></li>-->
+
+
+                      <li><a href="1.htm" class="home">Home</a></li>
+                    <li><a href="2.htm" class="home">Gallery</a></li>
+                    <li><a href="3.htm" class="home">Menu</a></li>
+                    <li><a href="6.html" class="home">Booking</a></li>
+                     <li><a href="7.html" class="home">Feedback</a></li>
+                      <li><a href="12.html" class="home">Contact us</a></li>
+                       <li><a href="9.html" class="home">Sign up</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div style="border: 5px solid #000;position: absolute;left:40px;top:20px">
+        <img src="cornercup.jpg" height="200" width="200" alt="kdkdkd" >
+    </div>
+
+   <div style="position: absolute;left:25px;top:250px">
+        <img src="ig.JPG" height="580" width="250" alt="kdkdkd" >
+    </div>
+
+   <div style="position: absolute;left:25px;top:250px">
+        <img src="ig.JPG" height="580" width="250" alt="kdkdkd" >
+    </div>
+    <div style="position: absolute;left:300px;top:150px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Hot Coffees:
+                            </div>
+                            <div class="info">
+                       1)cafe latte</div>
+                            <div class="info">
+                       2)Cappicinno</div>
+                            <div class="info">
+                                3)Choco Cappocinno</div>
+                            <div class="info">
+                                4)Lemon Tea</div>
+                            <div class="info">
+                       5)Black Coffee Shot
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+    </div>
+        <div style="position: absolute;left:600px;top:150px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Soft Drinks:
+                            </div>
+                            <div class="info">
+                                  1)Diet Pepsi</div>
+                            <div class="info">
+                       2)Mirinda</div>
+                            <div class="info">
+                                3)7up</div>
+                            <div class="info">
+                                4)Mountain Dew</div>
+                            <div class="info">
+                       5)Pepsi
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+   </table></div>
+<div style="position: absolute;left:900px;top:150px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Combo Packs:
+                            </div>
+                            <div class="info">
+                       1)Combo Super Supreme(Veg Wrap,French fry,My can)</div>
+                            <div class="info">
+                       2)ComboSupreme(Veg Pizza,French Fry,My can)</div>
+                            <div class="info">
+                                3)Combo Premium(veg burger,French Fry,My can)</div>
+                            <div class="info">
+                                4)Combo Delight(Triangle Sandwich,French Fry,My can)</div>
+                            <div class="info">
+                       5)Combo Classic(Maggie,Scoop of ice cream,Soft drink)
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+    <div style="position: absolute;left:300px;top:300px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Italian Food:
+                            </div>
+                            <div class="info">
+                       1)Macroni Pasta</div>
+                            <div class="info">
+                       2)Maggie Noodle</div>
+                            <div class="info">
+                                3)Panner Maggie</div>
+                            <div class="info">
+                                4)Mashroom Maggie</div>
+                            <div class="info">
+                       5)French Fries
+                            </div>
+                            <div class="info">
+                       6)Potato Welges
+                            </div>
+<div class="info">
+                       7)Potato Smiley
+                            </div>
+                            <div class="info">
+                       8)Veg Nuggets
+                            </div>
+                            <div class="info">
+                       9)Spring roll
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+    </div>
+
+
+<div style="position: absolute;left:600px;top:300px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Pastries:
+                            </div>
+                            <div class="info">
+                       1)Rum Cake</div>
+                            <div class="info">
+                       2)Choco Mocho</div>
+                            <div class="info">
+                                3)Moose Cake</div>
+                            <div class="info">
+                                4)Dark Forest</div>
+                                                    </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+
+<div style="position: absolute;left:900px;top:300px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Salads:
+                            </div>
+                            <div class="info">
+                       1)Russian Salad</div>
+                            <div class="info">
+                       2)American Salad</div>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+
+<div style="position: absolute;left:300px;top:450px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Juice:
+                            </div>
+                            <div class="info">
+                       1)Cool Blue</div>
+                            <div class="info">
+                       2)Strawberry Shake</div>
+                            <div class="info">
+                                3)Mochachillo</div>
+                            <div class="info">
+                                4)Black Current Blast</div>
+                            <div class="info">
+                       5)Custrand apple Blast
+                            </div>
+                            <div class="info">
+                       6)Green Apple Shake
+                            </div>
+<div class="info">
+                       7)Butterscotch shake
+                            </div>
+                            <div class="info">
+                       8)Cold choco latte
+                            </div>
+                            <div class="info">
+                       9)Java float
+                            </div>
+                             <div class="info">
+                       10)Orange soda</div>
+                            <div class="info">
+                       11)Strawberry soda</div>
+                            <div class="info">
+                                12)Green Apple soda</div>
+                            <div class="info">
+                                13)Antartic Soda</div>
+                            <div class="info">
+                       14)Kiwi Grudge
+                            </div>
+                            <div class="info">
+                       15)Friends Cafe special
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+    <div style="position: absolute;left:600px;top:450px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Burger:
+                            </div>
+                            <div class="info">
+                       1)Veg burger</div>
+                            <div class="info">
+                       2)Cheese Burger</div>
+                            <div class="info">
+                       3)Veg sim-sims</div>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+     <div style="position: absolute;left:900px;top:450px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                WRAP:
+                            </div>
+                            <div class="info">
+                       1)American corn Wrap </div>
+                            <div class="info">
+                       2)French Mushrron Wrap</div>
+                            <div class="info">
+                       3)Baby corn Wrap</div>
+                            <div class="info">
+                       4)Mixed fresh veg Wrap</div>
+                            <div class="info">
+                       5)Panner tikka Wrap</div>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+    <div style="position: absolute;left:300px;top:600px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Sandwiches:
+                            </div>
+                            <div class="info">
+                       1)Veg triangle sandwich </div>
+                            <div class="info">
+                       2)Cheese sandwich</div>
+                            <div class="info">
+                       3)Cheese spicy sandwich</div>
+                            <div class="info">
+                       4)American Sandwich</div>
+                            <div class="info">
+                       5)Coleslaw sandwich</div>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+<div style="position: absolute;left:600px;top:600px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Pizza:
+                            </div>
+                            <div class="info">
+                       1)Veg cheese pizza </div>
+                            <div class="info">
+                       2)Baby corn pizza</div>
+                            <div class="info">
+                       3)Mushroom pizza</div>
+                            <div class="info">
+                       4)Capsicum pizza</div>
+                            <div class="info">
+                       5)American pizza</div>
+                        <div class="info">
+                       6)Panner tikka pizza</div>
+                             <div class="info">
+                       7)Mixed herbal pizza</div>
+ <div class="info">
+                       8)Boby pizza</div>
+                             <div class="info">
+                       5)Jain pizza</div>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+    <div style="position: absolute;left:900px;top:600px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Pizza:
+                            </div>
+                            <div class="info">
+                       1)Veg cheese pizza </div>
+                            <div class="info">
+                       2)Baby corn pizza</div>
+                            <div class="info">
+                       3)Mushroom pizza</div>
+                            <div class="info">
+                       4)Capsicum pizza</div>
+                            <div class="info">
+                       5)American pizza</div>
+                        <div class="info">
+                       6)Panner tikka pizza</div>
+                             <div class="info">
+                       7)Mixed herbal pizza</div>
+ <div class="info">
+                       8)Boby pizza</div>
+                             <div class="info">
+                       5)Jain pizza</div>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+    <div style="position: absolute;left:300px;top:750px">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="left" valign="top"><img src="press_release_top.png" width="289" height="16" border="0"></td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" style="background:url(press_release_middle.png) repeat-y; width:289px;">
+                <div id="newsticker-demo">
+                    <div class="title"></div>
+                    <div class="newsticker-jcarousellite">
+                        <ul>
+                            <div class="thumbnail">
+                                Ice Creams:
+                            </div>
+                            <div class="info">
+                       1)Devil Bite(Flavored ice cream,Pineapple chunk)</div>
+                            <div class="info">
+                       2)Yoko o nuts(Ice Cream,Roasted nuts</div>
+                            <div class="info">
+                       3)Butterscotch(Fruit,ice cream,wafers)</div>
+                            <div class="info">
+                       4)That how I roll!(Spanish ice cream,payasam,Rosated nuts,wafer)</div>
+                            <div class="info">
+                       5)Vanilla ultra(Scope of ice cream,wafer,choco chips,Fruit)</div>
+                        <div class="info">
+                       6)Dark chocolate sabbath(chocolate,litches and more)</div>
+                             <div class="info">
+                       7)Strawberry Blonde(3scope of ice cream and crushed ice cream )</div>
+ <div class="info">
+                       8)Boby pizza</div>
+                             <div class="info">
+                       5)Jain pizza</div>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><img src="press_release_bottom.png" width="289" height="16" border="0"></td>
+        </tr>
+    </table>
+                                                   </div>
+</body>
+</html>
